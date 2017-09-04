@@ -8,10 +8,20 @@ public class Estacionamiento
     {
         espacioDis=150;
         costo=15;
-        datos=new vehiculo();
+        //datos=new vehiculo();
     }
     
-    public void registrarIn(Vehiculo placas,
+    public void registrarIn(String placas,int horall,int minll)
+    {
+        
+    }
+    
+    
+    public void registrarSal(String placas,int horasa,int Vehiculosa)
+    {
+        
+    }
+    
     
     
     public boolean checarDis()
@@ -24,6 +34,11 @@ public class Estacionamiento
        {
            return false;
            
+        }
+    }
+    public void calculacosto()
+    {
         
-    
+    }
+}   
  
